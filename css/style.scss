@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #eee;
+
+    .container {
+        border: 2px solid #111;
+        background: rgb(83, 80, 80);
+        border-radius: 10px;
+        max-width: 400px;
+        padding: 15px;
+        margin: 200px auto;
+        box-shadow: 0px 9px 10px rgba(0,0,0,.5);
+
+        .wrapper {
+            background: #111;
+            padding: 10px;
+            border-radius: 10px;
+
+            .clock-wrap {
+                background: #ccc;
+                border-radius: 5px;
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                #day {
+                    font-size: 25px;
+                }
+
+                .clock {
+                    font-size: 45px;
+
+                    #sec {
+                        font-size: 20px;
+                    } 
+                }
+            }
+        }
+    }
+}

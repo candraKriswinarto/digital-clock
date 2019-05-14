@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #eee;
+}
+
+body .container {
+  border: 2px solid #111;
+  background: #535050;
+  border-radius: 10px;
+  max-width: 400px;
+  padding: 15px;
+  margin: 200px auto;
+  -webkit-box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.5);
+}
+
+body .container .wrapper {
+  background: #111;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body .container .wrapper .clock-wrap {
+  background: #ccc;
+  border-radius: 5px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .wrapper .clock-wrap #day {
+  font-size: 25px;
+}
+
+body .container .wrapper .clock-wrap .clock {
+  font-size: 45px;
+}
+
+body .container .wrapper .clock-wrap .clock #sec {
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
