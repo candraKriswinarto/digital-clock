@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +7,18 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Orbitron', sans-serif;
   background: #eee;
+}
+
+body h1 {
+  text-align: center;
+  position: relative;
+  top: 190px;
+}
+
+body h1 span {
+  color: coral;
 }
 
 body .container {
